@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { JorunalEntry } from './JorunalEntry'
+import { JorunalEntry } from './NoteEntry'
 
 export const JournalEntries = () => {
 

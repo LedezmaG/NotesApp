@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { startLogout } from '../../Actions/Auth'
 import { StartNewNote } from '../../Actions/Notes'
-import { JournalEntries } from './JournalEntries'
+import { JournalEntries } from './NoteEntries'
 
 export const Sidebar = () => {
 

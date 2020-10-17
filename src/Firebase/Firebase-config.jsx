@@ -4,13 +4,13 @@ import 'firebase/auth'
 
   // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB6SX5683ifAnzE2yY2jS3Cjub92YpXF94",
-    authDomain: "journalapp-1b130.firebaseapp.com",
-    databaseURL: "https://journalapp-1b130.firebaseio.com",
-    projectId: "journalapp-1b130",
-    storageBucket: "journalapp-1b130.appspot.com",
-    messagingSenderId: "552233466230",
-    appId: "1:552233466230:web:f683bc72d83dd68fa0a257"
+  apiKey: "AIzaSyB6SX5683ifAnzE2yY2jS3Cjub92YpXF94",
+  authDomain: "journalapp-1b130.firebaseapp.com",
+  databaseURL: "https://journalapp-1b130.firebaseio.com",
+  projectId: "journalapp-1b130",
+  storageBucket: "journalapp-1b130.appspot.com",
+  messagingSenderId: "552233466230",
+  appId: "1:552233466230:web:4c2e129552d26ee5a0a257"
 };
 
 firebase.initializeApp(firebaseConfig);

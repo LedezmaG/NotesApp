@@ -4,7 +4,7 @@ import {
     Switch,
     Redirect
 } from "react-router-dom";
-import { JournalPage } from '../Components/Journal/JournalPage';
+import { JournalPage } from '../Components/NotesApp/NoteAppPage';
 import { AuthRouter } from './AuthRouter';
 import { firebase } from './../Firebase/Firebase-config'
 import { useDispatch } from 'react-redux';

@@ -102,7 +102,6 @@ export const StartDelete = ( id ) => {
 
         await bd.doc(`${ uid }/journal/notes/${ id }`).delete()
         .then( note => {
-            console.log( `${ uid }/journal/notes/${ id }` );
             dispatch( DeleteNote( id ) )
 
             Swal.fire(
