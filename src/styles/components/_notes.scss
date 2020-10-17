@@ -1,0 +1,52 @@
+
+.notes__main-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.note__appbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    color: $primary;
+    padding: 15px 25px 15px 25px;
+}
+
+.notes__content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.notes__textarea, .notes__title-imput {
+    border: none;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.notes__title-imput{
+    color: $dark-grey;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.notes__textarea{
+    border: none;
+    color: $dark-grey;
+    font-size: 18px;
+    flex: 1 1 auto;
+}
+
+.notes__image img{
+    box-shadow: 6px 7px 32px -10px $primary;
+    border-radius: 10px;
+    height: 150px;
+}
